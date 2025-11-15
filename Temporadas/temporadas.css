@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+header{
+    background-color: black;
+}
+header a img {
+    width: 130px;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Bungee Spice';
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+section p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#furiosos11{
+    background-color: rgb(247, 65, 65);
+}
+#furiosos11 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(240, 76, 11);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#estreno{
+    color: rgb(31, 61, 116);
+    font-size: 50px;
+    font-family: "Monoton",sans-serif;
+}
+footer{
+    margin-top: 30px;
+    background-color: rgb(214, 209, 209);
+}
+footer h3{
+    display: inline;
+
+}
+footer img{
+    width: 100px;
+    height: 70px;
+    display: inline;
+}
+.contenedorFooter{
+    text-align: center;
+}
+footer .infoFooter{
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+}
