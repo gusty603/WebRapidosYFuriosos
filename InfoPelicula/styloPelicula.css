@@ -25,15 +25,21 @@ p {
 
 .galeria{
     width: 100%;
-    height: 250px;
+    height:300px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+    background-image: url("./imanesDeProtagonistas/auto-brain.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}    
 figure:hover{
     animation: foto 5s;
-    
+}
+figcaption{
+    color: white;
 }
 
 .fotoProtagonistas{
