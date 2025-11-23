@@ -10,7 +10,7 @@ header{
     background-color: #c63d2f;
 }
 h1{
-    color: crimson;
+    color: #c63d2f;
 }
 form{
     width: 310px;
@@ -28,7 +28,7 @@ button{
     height: 20px;
     color: white;
     border-radius: 50px;
-    background-color:crimson;
+    background-color:#c63d2f;
     border: none;
 }
 }
