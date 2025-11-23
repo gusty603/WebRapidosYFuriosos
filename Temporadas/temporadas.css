@@ -47,3 +47,23 @@ section h3{
     font-size: 50px;
     font-family: "Monoton",sans-serif;
 }
+#cartelAnimado{
+    overflow: hidden;
+    color: red;
+    background-color: black;
+    font-size: 50px;
+    font-weight: 700;
+    span{
+        display: inline-block;
+        animation: cartel 15s linear infinite;
+    }
+}
+
+@keyframes cartel{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
