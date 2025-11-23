@@ -24,3 +24,9 @@ section .foto2{
 .collage{
     text-align: center;
 }
+article{
+    width: 80%;
+    margin: 0 auto; 
+    text-align: center;
+    
+}
