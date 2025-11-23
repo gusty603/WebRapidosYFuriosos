@@ -3,7 +3,43 @@
     margin: 0;
     padding: 0;
 }
-
-
-
+body{
+    background-color:#dcdcdc;
+}
+header{
+    background-color: #c63d2f;
+}
+h1{
+    color: crimson;
+}
+form{
+    width: 310px;
+background-color: white;
+border-radius: 20px;
+padding-top: 25px;
+padding-right: 15px;
+text-align: end;
+margin: 0 auto;
+div{
+    margin-bottom: 20px;
+}
+button{
+    width: 60px;
+    height: 20px;
+    color: white;
+    border-radius: 50px;
+    background-color:crimson;
+    border: none;
+}
+}
+input{
+  height: 30px;  
+  background-color: #dcdcdc;
+  border: none;
+  border-radius: 5px;
+}
+label{
+    font-size: 30px;
+    color: grey;
+}
 
