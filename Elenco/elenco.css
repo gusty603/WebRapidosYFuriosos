@@ -1,5 +1,15 @@
 
-
+span{
+    position: fixed;
+    display: block;
+    margin-left: 92%;
+    margin-top: 300px;
+    img{
+        width: 70px;
+        height: 70px;
+    
+    }
+}
 
 img {
     width: 153px;
@@ -18,13 +28,20 @@ li {
     background-color:#C63D2F;
 }
 .biografia{
+    
     display: flex;
     justify-content: space-evenly;
     margin: 20px 0;
+    padding: 20px 0;
     p{
         text-align: center;
         width: 50%;
+        color:p;
     }
+    background-color:#bfbfbf;
+}
+.biografia img{
+    align-self:center;
 }
 .tarjeta:hover{
     transform: scale(1.1);
@@ -41,6 +58,11 @@ li {
     border-radius: 15px;
     box-shadow: rgb(10, 10, 10)0px 5px 12px;
     
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+
 }
 button{
         margin-top: 10px;
