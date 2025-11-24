@@ -12,6 +12,7 @@ header{
 h1{
     color: #c63d2f;
 }
+
 form{
     width: 310px;
 background-color: white;
@@ -20,6 +21,7 @@ padding-top: 25px;
 padding-right: 15px;
 text-align: end;
 margin: 0 auto;
+opacity: 90%;
 div{
     margin-bottom: 20px;
 }
@@ -30,6 +32,7 @@ button{
     border-radius: 50px;
     background-color:#c63d2f;
     border: none;
+    margin-bottom: 5px;
 }
 }
 input{
@@ -37,6 +40,7 @@ input{
   background-color: #dcdcdc;
   border: none;
   border-radius: 5px;
+
 }
 label{
     font-size: 30px;
