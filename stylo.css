@@ -7,12 +7,16 @@
 ul{
     text-align: end;
 }
+li:hover{
+    background-color: white;
+    
+}
 li {
     display: inline-block;
     height: 30px;
     padding: 5px;
     background-color:rgb(240, 76, 11);
-    
+    border-radius: 5px;
 }
 a{
     color:black;
