@@ -4,15 +4,31 @@
     padding: 0;
 }
 body{
-    text-align: center;
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url('./imagen/auto-motor-fundido.jpg');
+    background-size: cover;
 }
 
 a{
     display: inline-block;
     margin-top: 40px;
     text-decoration: none;
-    color:#c63d2f;
+    color:red;
 }
 h1{
     color: red;
+    font-size: 40px;
+}
+
+#contenedor{
+    width: 500px;
+    height: 200px;
+    
+    text-align: center;
+}
+p{
+    color: white;
 }
