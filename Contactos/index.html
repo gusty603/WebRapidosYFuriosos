@@ -14,7 +14,8 @@
     </header>
     <h1>Formulario</h1>
     
-    <form action="../Confirmacion/index.html">
+    <form action="../Confirmacion/index.html" method="post">
+      <div class="contenedor">
         <div>
           <label for="nombre">Nombre:</label>
           <input type="text" id="nombre" name="nombre" placeholder="tu nombre" required>
@@ -27,6 +28,16 @@
             <label for="email">Correo:</label>
           <input type="email" id="email" name="email" placeholder="ejemplo@ejemplo.com" required>
         </div>
+        <div>
+            <label for="pais">Pais:</label>
+          <input type="text" id="pais" name="pais" placeholder="pais" required>
+        </div>
+      </div>
+        <div id="consulta">
+       <label for="texto">Consulta:</label>
+        </div>
+       <textarea id="texto" name="texto" placeholder="Escribe tu consulta aqui..." rows="10" cols="36"></textarea>
+        <br>
       <button type="submit">Enviar</button>  
 
     </form>
