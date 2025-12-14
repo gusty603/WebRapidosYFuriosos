@@ -1,18 +1,55 @@
 @media(width < 767px){
+    
+    ul:target{
+        right: 0;
+    }
     ul{
+        display: block;
+        position: fixed;
+        top: 45px;
+        width: 200px;
+        right: -200px;
+        background-color: black;
+        border: solid 1px white;
+        transition: right 2s ease;
+    }
+    nav{
+        position: relative;
+    }
+    #abrir,
+    #cerrar{
+        position: absolute;
+        right: 10px;
+        text-align: end;
+    }
+    #abrir{
+        display: block;
+        
+    }
+    ul:target ~ #abrir{
         display: none;
+        
+    }
+    #cerrar{
+        
+        display: none;
+
+    }
+    ul:target ~ #cerrar{
+        display: block;
+    
+    }
+    li{
+        width: 180px;
+        display: block;
+        margin: 5px auto;
+        text-align: center;
     }
     h1{
-        font-size: 20px;
+        font-size: 24px;
+        margin-bottom: 15px;
     }
-    #panelHamburguesa{
-        display: none;
-    }
-    #hamburguesa{
-        display: block;
-        text-align: end;
-        margin-right: 5px;
-    }
+    
     .contenedorDeVideos{
         width: 100%;
         display: flex;
