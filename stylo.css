@@ -37,6 +37,12 @@ header {
     background-color: black;
     margin-bottom: 30px;
 }
+#abrir{
+    display: none;
+}
+#cerrar{
+    display: none;
+}
 
 section p {
     width: 80%;
