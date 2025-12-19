@@ -1,4 +1,8 @@
 @media(767px < width < 1024px){
+    .headerGlobal{
+        height: 120px ;
+        
+    }
     h1{
         font-size: 40px;
     }

@@ -1,7 +1,16 @@
 @media(width <= 767px){
-    
+    .headerGlobal{
+        height: 90px;
+        margin-bottom: 0px;
+    }
     h1{
         font-size: 24px;
+    }
+   
+    section #videoTrailer{
+    width: 100%;
+    height: 400px;
+    
     }
     h2{
         font-size: 24px;
@@ -13,22 +22,27 @@
         width: 80px;
         height: 70px;
     }
+    #contenedorProtagonistas{
+        width: 100%;
+    }
     .galeria{
-        height: 400px;
+        width: 100%;
+        height: 420px;
         display: grid;
-        grid-template-columns: 100px 100px;
+        grid-template-columns: 100px 100px 100px;
         grid-auto-rows: 100px;
         place-content: center;
-        gap: 40px;
+        gap: 35px;
     }
 
    .fotoProtagonistas{
     width: 100px;
     height: 100px;
    }
-    section{
-        width: 90%;
-    }
+   #contenedorFicha{
+    text-align: center;
+   }
+   
      .contenedorFooter{
         display: flex;
         flex-direction: column;
@@ -42,4 +56,24 @@
         margin-bottom: 20px;
      }
 
+}
+@media(width < 500px){
+    .headerGlobal{
+        height: 70px;
+        margin-bottom: 0px;
+    }
+   
+    h1{
+        font-size: 22px;
+    }
+    .galeria{
+        grid-template-columns: 100px 100px;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+    }
+    section #videoTrailer{
+        height: 300px;
+    }
 }
