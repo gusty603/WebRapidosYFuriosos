@@ -33,12 +33,13 @@ li {
     justify-content: space-evenly;
     margin: 20px 0;
     padding: 20px 0;
+    background-color: #bfbfbf;
     p{
         text-align: center;
         width: 50%;
-        color:p;
+        
     }
-    background-color:#bfbfbf;
+    
 }
 .biografia img{
     align-self:center;

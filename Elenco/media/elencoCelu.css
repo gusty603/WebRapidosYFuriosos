@@ -1,0 +1,22 @@
+@media(width <= 767px){
+    .headerGlobal{
+        height: 90px;
+        margin-bottom: 0px;
+    }
+    h1{
+        font-size: 24px;
+        margin-top: 30px;
+    }
+ #logo{
+        width: 80px;
+        height: 70px;
+        margin-top: 10px;
+    }}
+    @media(width <=650px){
+        .biografia{
+            flex-direction: column;
+            p{
+                width: 100%;
+            }
+        }
+    }
