@@ -5,7 +5,7 @@ section #videoTrailer{
     height: 500px;
     margin-top: 5px;
 }
-p {
+section p {
     width: 90%;
     margin: 0 auto;
     font-size: 20px;
