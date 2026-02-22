@@ -1,11 +1,14 @@
 @media(width <= 767px){
     .headerGlobal{
-        height: 90px;
+        height: 60px;
         margin-bottom: 0px;
     }
     h1{
         font-size: 24px;
         margin-top: 30px;
+    }
+    h2{
+        font-size: 24px;
     }
  #logo{
         width: 80px;
