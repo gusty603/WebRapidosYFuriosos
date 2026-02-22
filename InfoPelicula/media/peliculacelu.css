@@ -29,18 +29,25 @@
         width: 100%;
     }
     .galeria{
-        width: 100%;
+        
         height: 420px;
         display: grid;
-        grid-template-columns: 100px 100px 100px;
-        grid-auto-rows: 100px;
+        grid-template-columns: 150px 150px 150px;
+        grid-auto-rows: 120px;
         place-content: center;
         gap: 35px;
+        
     }
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
    .fotoProtagonistas{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
+    margin: 0 30px;
    }
    #contenedorFicha{
     text-align: center;
@@ -63,12 +70,17 @@
 }
 @media(width < 500px){
     
-   
+   .fotoProtagonistas{
+    width: 100px;
+    height: 100px;
+    
+   }
     h1{
         font-size: 22px;
     }
     .galeria{
         grid-template-columns: 100px 100px;
+        gap: 20px;
     }
     #logo{
         width: 50px;

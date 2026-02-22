@@ -1,6 +1,6 @@
 @media(767px < width < 1024px){
     .headerGlobal{
-        height: 120px ;
+        height: 100px ;
         
     }
     h1{
@@ -10,6 +10,7 @@
         font-size: 30px;
     }
     .galeria{
+        margin: 0 auto;
         position: relative;
         height: 400px;
         flex-wrap: wrap;
@@ -17,9 +18,7 @@
     .figure{
         position: absolute;
     }
-    .fotoProtagonistas{
-        margin: 0 20px;
-    }
+    
     p{
         text-align: center;
     }
@@ -30,4 +29,5 @@
     #contenedorFicha ul{
 text-align: center;
     }
+   
 }
