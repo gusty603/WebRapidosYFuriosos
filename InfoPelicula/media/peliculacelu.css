@@ -1,9 +1,10 @@
 @media(width <= 767px){
     .headerGlobal{
-        height: 90px;
+        height: 70px;
         margin-bottom: 0px;
     }
     h1{
+        margin-top: 30px;
         font-size: 24px;
     }
    
@@ -22,6 +23,7 @@
     #logo{
         width: 80px;
         height: 70px;
+        margin-top: 10px;
     }
     #contenedorProtagonistas{
         width: 100%;
@@ -60,10 +62,7 @@
 
 }
 @media(width < 500px){
-    .headerGlobal{
-        height: 70px;
-        margin-bottom: 0px;
-    }
+    
    
     h1{
         font-size: 22px;
