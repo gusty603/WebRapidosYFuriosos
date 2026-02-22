@@ -27,4 +27,7 @@
         width: 110px;
         height: 90px;
     }
+    #contenedorFicha ul{
+text-align: center;
+    }
 }
