@@ -90,7 +90,7 @@
         height: 300px;
     }
 }
-@media(width < 400px){
+@media(width < 430px){
     html, body{
         overflow-x: hidden;
     }
@@ -99,6 +99,11 @@
     text-align: start;
     margin-left: 15px;
    }
-
+#mapa{
+    width: 90%;
+}
+#tituloMapa{
+    width: 100%;
+}
 
 }
