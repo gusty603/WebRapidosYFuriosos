@@ -6,9 +6,7 @@
     .personajes{
         width: 100%;
     }
-    .tarjeta{
-        width: 100%;
-    }
+    
     h1{
         font-size: 24px;
         margin-top: 30px;
@@ -20,8 +18,15 @@
         width: 80px;
         height: 70px;
         margin-top: 10px;
+    }
+span{
+        margin-left: 87%;
+        img{
+            width: 50px;
+            height: 50px;
+        }
     }}
-    @media(width <=650px){
+    @media(width <=680px){
         .biografia{
             flex-direction: column;
             p{
@@ -29,4 +34,5 @@
                 margin: 0 auto;
             }
         }
+   
     }
