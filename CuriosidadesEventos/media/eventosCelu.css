@@ -1,0 +1,12 @@
+@media(width < 767px){
+    .headerGlobal{
+        height: 60px;
+    }
+    h1{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
