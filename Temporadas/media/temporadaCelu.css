@@ -3,6 +3,7 @@
         font-size:35px ;
     }
      .headerGlobal{
+    
         height: 60px;
         margin-bottom: 0px;
     }
@@ -24,6 +25,13 @@
 }
 @media(width <= 510px){
     #cartelAnimado{
-        font-size: 30px;
+        font-size: 25px;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+    }
+    h1{
+        font-size: 22px;
     }
 }
