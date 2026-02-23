@@ -22,6 +22,9 @@
         height: 70px;
         margin-top: 10px;
     }
+    #estreno{
+        font-size: 30px;
+    }
 }
 @media(width <= 510px){
     #cartelAnimado{
@@ -33,5 +36,8 @@
     }
     h1{
         font-size: 22px;
+    }
+    #estreno{
+        font-size: 25px;
     }
 }
