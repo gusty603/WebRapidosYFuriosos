@@ -50,6 +50,7 @@ section h3{
 }
 #cartelAnimado{
     overflow: hidden;
+    margin-top: 15px;
     color: red;
     background-color: black;
     font-size: 50px;

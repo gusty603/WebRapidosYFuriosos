@@ -1,0 +1,10 @@
+@media(width < 767px){
+    #cartelAnimado{
+        font-size:35px ;
+    }
+}
+@media(width <= 510px){
+    #cartelAnimado{
+        font-size: 30px;
+    }
+}
