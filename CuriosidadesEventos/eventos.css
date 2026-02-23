@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-p{
+section p{
     text-align: center;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -16,12 +16,11 @@ section{
 section img{
     display: inline-block;
     width: 300px;
-    height: 450px;
+    max-width: 100%;
+    height: auto;
     
 }
-section .foto2{
-    height: 450px;
-}
+
 .collage{
     text-align: center;
 }
@@ -30,4 +29,13 @@ article{
     margin: 0 auto; 
     text-align: center;
     
+}
+iframe{
+    width:100%;
+    max-width:100%;
+aspect-ratio: 16/9;
+display: block;
+}
+body{
+    overflow-x:hidden;
 }

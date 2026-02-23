@@ -1,11 +1,14 @@
 @media(width < 767px){
     .headerGlobal{
         height: 60px;
-        
+       
+    }
+    section{
+        width: 100%;
     }
     h1{
         font-size: 24px;
-        margin-bottom: 10px;
+        margin-top: 30px;
     }
     h2{
         font-size: 30px;
@@ -14,4 +17,17 @@
         width: 80px;
       height: 70px;
         margin-top: 10px;}
+        section img{
+            width: 100%;
+        }
+}
+@media(width < 510px){
+    h1{
+        font-size: 22px;
+    }
+     #logo{
+        width: 50px;
+        height: 50px;
+    }
+   
 }
