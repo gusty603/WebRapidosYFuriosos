@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center; 
     background-image: url('./imagen/auto-motor-fundido.jpg');
+    background-position: center;
     background-size: cover;
 }
 
