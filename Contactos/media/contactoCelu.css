@@ -25,6 +25,9 @@ form{
 #contenedorConsulta{
     width: 75%;
 }
+label{
+    font-size: 25px;
+}
 }
 @media(width < 500px){
     form{

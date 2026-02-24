@@ -10,4 +10,7 @@
         width: 110px;
         height: 90px;
     }
+    label{
+        font-size: 25px;
+    }
 }
