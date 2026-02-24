@@ -7,4 +7,42 @@
         width: 80px;
         height: 70px;
         margin-top: 10px;
-    }}
+    }
+h1{
+font-size: 30px;
+}
+form{
+    width: 390px;
+    div{
+        margin-bottom: 15px;
+    }
+    height:490px ;
+}
+.contenedor{
+    width: 75%;
+    
+}
+#contenedorConsulta{
+    width: 75%;
+}
+}
+@media(width < 500px){
+    form{
+    width: 340px;
+    div{
+        margin-bottom: 10px;
+    }
+    height:460px ;
+}
+.contenedor{
+    width: 90%;
+    
+}
+#contenedorConsulta{
+    width: 90%;
+}
+#logo{
+        width: 60px;
+        height: 60px;
+    }
+}
