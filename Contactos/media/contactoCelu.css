@@ -1,0 +1,10 @@
+@media(width < 767px){
+    .headerGlobal{
+        height: 60px;
+       
+    }
+#logo{
+        width: 80px;
+        height: 70px;
+        margin-top: 10px;
+    }}

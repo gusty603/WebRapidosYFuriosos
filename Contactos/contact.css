@@ -8,13 +8,18 @@ body{
     background-position: center;
 
 }
-header{
+.headerGlobal{
     background-color: #c63d2f;
+    display: flex;
+    justify-content:start ;
 }
+
 h1{
     color: white;
 }
-
+#logo{
+    margin-left: 10px;
+}
 form{
     width: 430px;
     height: 520px;
