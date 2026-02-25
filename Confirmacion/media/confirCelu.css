@@ -1,5 +1,6 @@
 @media(width < 450px){
     h1{
-        font-size: 25px;
+        font-size: 35px;
     }
+   div{ margin: 50px;}
 }
