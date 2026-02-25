@@ -1,6 +1,6 @@
 @media(767px < width < 1024px){
     .headerGlobal{
-        height: 100px ;
+        height: 90px ;
         
     }
     h1{
@@ -25,6 +25,7 @@
     #logo{
         width: 110px;
         height: 90px;
+        margin-top: 10px;
     }
     #contenedorFicha ul{
 text-align: center;
