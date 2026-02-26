@@ -5,9 +5,15 @@
     }
     section{
         width: 100%;
+        p{
+            margin: 0 20px;
+        }
     }
     article{
         width: 100%;
+        p{
+            margin: 0 20px;
+        }
     }
     h1{
         font-size: 30px;
@@ -32,6 +38,7 @@
      }
      .contenedorFooter img{
         width: 80%;
+        margin: 0 auto;
         height: 220px;
         margin-bottom: 20px;
      }
