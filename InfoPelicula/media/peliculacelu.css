@@ -38,6 +38,10 @@
         gap: 35px;
         
     }
+    .collage img{
+        width: 50%;
+        height: 200px;
+    }
 
 figure{
     display: flex;
@@ -69,7 +73,7 @@ figure{
      }
 
 }
-@media(width < 500px){
+@media(width < 550px){
     
    .fotoProtagonistas{
     width: 100px;
