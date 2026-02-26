@@ -23,6 +23,18 @@
         section img{
             width: 100%;
         }
+         .contenedorFooter{
+        display: flex;
+        flex-direction: column;
+     }
+     .contenedorFooter a{
+        margin: 20px 0;
+     }
+     .contenedorFooter img{
+        width: 80%;
+        height: 220px;
+        margin-bottom: 20px;
+     }
 }
 @media(width < 510px){
     h1{
