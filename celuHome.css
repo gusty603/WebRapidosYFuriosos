@@ -60,6 +60,9 @@
     h2{
         font-size: 30px;
     }
+    section p{
+        width: 90%;
+    }
     
     section #tituloVideo{
         width: 100%;
