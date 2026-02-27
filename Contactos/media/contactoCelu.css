@@ -13,14 +13,24 @@ font-size: 30px;
 }
 form{
     width: 390px;
+    height: 490px;
     div{
         margin-bottom: 15px;
     }
-    height:490px ;
+    button{
+        width: 100%;
+        height: 30px;
+    }
 }
 .contenedor{
     width: 75%;
     
+}
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 15px;
 }
 #contenedorConsulta{
     width: 75%;
